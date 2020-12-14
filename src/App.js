@@ -1,8 +1,9 @@
 import './App.css';
+import FilmBox from "./containers/FilmBox"
 
 function App() {
   return (
-    <p>Pass</p>
+    <FilmBox />
   );
 }
 
