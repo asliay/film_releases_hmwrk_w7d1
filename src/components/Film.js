@@ -1,5 +1,3 @@
-const { default: FilmBox } = require("../containers/FilmBox")
-
 const Film = ({title, release, url}) => {
     
     return (
