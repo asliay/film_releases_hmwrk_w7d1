@@ -4,8 +4,8 @@ const Film = ({title, release, url}) => {
     
     return (
         <>
-            <li id="list-item">
-                <a href={url}>
+            <li className="ListItem">
+                <a href={url} className="FilmLink">
                     {title} ({release}) 
                 </a>
             </li> 

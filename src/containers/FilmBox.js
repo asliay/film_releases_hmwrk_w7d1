@@ -26,9 +26,11 @@ const FilmBox = () => {
 
     const [films, setFilms] = useState(initialState);
         return (
-            <>
+            <body>
+            <div className="FilmBox">
                 <FilmList films={films} />
-            </>
+            </div>
+            </body>
         );
 }
 

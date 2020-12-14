@@ -15,11 +15,11 @@ const FilmList = ({films}) => {
         <>
             <h1>Upcoming Film Releases</h1>
             <hr/>
-                <ul i="film-list">
+                <ul className="FilmList">
                     {filmNodes}
                 </ul>
             <hr/>
-            <h3><a href="https://www.imdb.com/calendar/?region=gb">More Upcoming Releases</a></h3>
+            <h3><a href="https://www.imdb.com/calendar/?region=gb" className="MoreLink">More Upcoming Releases</a></h3>
         </>
     )
 }
